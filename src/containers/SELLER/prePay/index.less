@@ -1,0 +1,61 @@
+.prePay-main {
+  height: 100%;
+  .content-main {
+    width: 60%;
+    margin-left: 10%;
+    height: calc(100% - 400px);
+    .pay-method-item {
+      width: 180px;
+      height: 50px;
+      border: 1px solid darkgrey;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 30px;
+    }
+
+    .mgl30 {
+      margin-left: 30px;
+    }
+
+    .pay-method-choose {
+      display: flex;
+      align-items: center;
+    }
+
+    .selectedPayMode {
+      border: 3px solid #40a9ff;
+    }
+
+    .pay-method-item:hover {
+      .selectedPayMode;
+      cursor: pointer;
+    }
+
+    .pay-icon-w {
+      width: 100px;
+    }
+
+    .pay-icon-z {
+      width: 75px;
+    }
+
+    .button-container {
+      text-align: right;
+    }
+  }
+}
+
+.QRCode-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.QRCode-desc {
+  width: 128px;
+  display: flex;
+  justify-content: space-between;
+  color: goldenrod;
+}
