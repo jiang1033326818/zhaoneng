@@ -26,7 +26,7 @@
     "react-scripts": "1.1.4",
     "react-thunk": "^1.0.0",
     "utility": "^1.13.1",
-    "xlsx": "^0.13.4"
+    "xlsx": "^0.17.0"
   },
   "scripts": {
     "start": "cross-env APP_TYPE=test react-app-rewired start",
