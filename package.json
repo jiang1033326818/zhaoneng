@@ -48,7 +48,7 @@
     "echarts-liquidfill": "^2.0.3",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
-    "jsdom": "^11.11.0",
+    "jsdom": "^16.5.0",
     "jsdom-global": "^3.0.2",
     "karma": "^2.0.2",
     "karma-chrome-launcher": "^2.2.0",
